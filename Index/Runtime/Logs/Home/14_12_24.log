@@ -1,0 +1,25 @@
+[ 2014-12-24T20:27:34+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: 无法加载控制器:Public
+
+[ 2014-12-24T20:27:54+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: 无法加载控制器:Public
+
+[ 2014-12-24T20:27:59+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: 无法加载控制器:Public
+
+[ 2014-12-24T20:28:17+08:00 ] 127.0.0.1 /index.php/Home/Company/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CompanyController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\cosplay\Index\Home\Controller\CompanyController.class.php 第 83 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\cosplay\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cs_company` [ RunTime:0.004000s ]
+SQL: INSERT INTO `cs_company` (`name`,`street`,`addtime`,`phone`,`userid`,`description`) VALUES ('test1','test3',1419424097,'test2',1,'test4') [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\xampp\htdocs\cosplay\Index\Home\Controller\CompanyController.class.php 第 63 行.
+
+[ 2014-12-24T20:28:17+08:00 ] 127.0.0.1 /index.php/Home/Company/listcompany.html
+ERR: 非法操作:listcompany
+
+[ 2014-12-24T21:32:52+08:00 ] 127.0.0.1 /index.php/Home/user/company
+ERR: 模板不存在:./Index/Home/View/User/company.html
+

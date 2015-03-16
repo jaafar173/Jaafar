@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>{$listname}----{:WEBSITE_NAME}</title>
+  
+  <!-- 双核浏览器默认为webkit内核模式 -->
+  <meta name="renderer" content="webkit">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{$company.description}">
+  <meta name="author" content="">
+
+  <include file="./Public/View/js.html" />
+  <style type="text/css">
+   .blog-main img{
+    max-width: 100%
+   }
+  </style>
+
+
+</head>
+
+<body role="document">
+    <!-- Fixed navbar -->
+  <include file="./Public/View/head.html" /> 
+
+    <div class="container">
+
+      <div class="blog-header">
+        <h1 class="blog-title">{$company.title}</h1>
+        <p class="lead blog-description">{$company.description}</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+          
+
+          <!-- 表格开始 -->
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>公司名</th>
+                <th>公司地址</th>
+                <th>联系人手机</th> 
+              </tr>
+            </thead>
+            <tbody>
+              <volist name="list" id="vo" >
+                <tr>
+                  <td>{$vo.id}</td>
+                  <td>{$vo.name}</td>
+                  <td>{$vo.street}</td>
+                  <td>{$vo.user.phone}</td> 
+                </tr>
+              </volist>
+            </tbody>
+          </table>
+          <!-- 表格结束-->
+
+          <!-- /.blog-post -->
+
+
+
+
+
+          <div class="blog-post"></div><!-- /.blog-post -->
+
+          <ul class="pager">
+            <li><a href="#">Previous</a></li>
+            <li><a href="#">Next</a></li>
+          </ul>
+
+        </div><!-- /.blog-main -->
+
+        <include file="banner" /> <!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- 内容结束 -->
+
+    <include file="./Public/View/footer.html" /> 
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+  </body>
+</html>

@@ -1,0 +1,82 @@
+[ 2014-11-04T15:29:36+08:00 ] 113.246.3.61 /admin.php/Home/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+NOTIC: [2] mysql_connect(): Host '127.0.0.1' is not allowed to connect to this MySQL server /data/home/hxu0440223/htdocs/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+ERR: Host '127.0.0.1' is not allowed to connect to this MySQL server
+
+[ 2014-11-04T15:29:50+08:00 ] 113.246.3.61 /admin.php/Home/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+NOTIC: [2] mysql_connect(): Host '127.0.0.1' is not allowed to connect to this MySQL server /data/home/hxu0440223/htdocs/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+ERR: Host '127.0.0.1' is not allowed to connect to this MySQL server
+
+[ 2014-11-04T15:34:46+08:00 ] 113.246.3.61 /admin.php/Home/Login/Login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: [2] mysql_connect(): Host '127.0.0.1' is not allowed to connect to this MySQL server /data/home/hxu0440223/htdocs/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+ERR: Host '127.0.0.1' is not allowed to connect to this MySQL server
+
+[ 2014-11-04T15:38:39+08:00 ] 113.246.3.61 /admin.php/Home/Login/Login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `cs_adminuser` [ RunTime:0.002129s ]
+ERR: 1146:Table 'hdm1460191_db.cs_adminuser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cs_adminuser`
+SQL: SELECT * FROM `cs_adminuser` WHERE `email` = '278203533@qq.com' LIMIT 1   [ RunTime:0.001604s ]
+ERR: 1146:Table 'hdm1460191_db.cs_adminuser' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `cs_adminuser` WHERE `email` = '278203533@qq.com' LIMIT 1  
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' /data/home/hxu0440223/htdocs/Admin/Home/Controller/LoginController.class.php 第 28 行.
+
+[ 2014-11-04T15:44:50+08:00 ] 113.246.3.61 /admin.php/Home/Login/Login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `zq_adminuser` [ RunTime:0.002387s ]
+SQL: SELECT * FROM `zq_adminuser` WHERE `email` = '278203533@qq.com' LIMIT 1   [ RunTime:0.001681s ]
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' /data/home/hxu0440223/htdocs/Admin/Home/Controller/LoginController.class.php 第 28 行.
+
+[ 2014-11-04T15:45:34+08:00 ] 113.246.3.61 /admin.php/Home/Login/Login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `zq_adminuser` [ RunTime:0.002096s ]
+SQL: SELECT * FROM `zq_adminuser` WHERE `email` = '278203533@qq.com' LIMIT 1   [ RunTime:0.001496s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /data/home/hxu0440223/htdocs/Admin/Home/Controller/LoginController.class.php 第 22 行.
+
+[ 2014-11-04T15:47:03+08:00 ] 113.246.3.61 /admin.php/Home/Article/undefinedthemes/default/css/ueditor.css
+ERR: 非法操作:undefinedthemes
+
+[ 2014-11-04T15:47:03+08:00 ] 113.246.3.61 /admin.php/Home/Article/undefinedlang/zh-cn/zh-cn.js
+ERR: 非法操作:undefinedlang
+
+[ 2014-11-04T15:47:33+08:00 ] 113.246.3.61 /admin.php/Home/Article/undefinedthemes/default/css/ueditor.css
+ERR: 非法操作:undefinedthemes
+
+[ 2014-11-04T15:48:26+08:00 ] 113.246.3.61 /admin.php/Home/Login/Login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `zq_adminuser` [ RunTime:0.002084s ]
+SQL: SELECT * FROM `zq_adminuser` WHERE `email` = '278203533@qq.com' LIMIT 1   [ RunTime:0.001510s ]
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' /data/home/hxu0440223/htdocs/Admin/Home/Controller/LoginController.class.php 第 28 行.
+
+[ 2014-11-04T15:48:31+08:00 ] 113.246.3.61 /admin.php/Home/Login/Login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `zq_adminuser` [ RunTime:0.002035s ]
+SQL: SELECT * FROM `zq_adminuser` WHERE `email` = '278203533@qq.com' LIMIT 1   [ RunTime:0.001489s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /data/home/hxu0440223/htdocs/Admin/Home/Controller/LoginController.class.php 第 22 行.
+
+[ 2014-11-04T21:13:08+08:00 ] 111.22.0.179 /admin.php/Home/Login/Login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `zq_adminuser` [ RunTime:0.002285s ]
+SQL: SELECT * FROM `zq_adminuser` WHERE `email` = '278203533@qq.com' LIMIT 1   [ RunTime:0.001603s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /data/home/hxu0440223/htdocs/Admin/Home/Controller/LoginController.class.php 第 22 行.
+

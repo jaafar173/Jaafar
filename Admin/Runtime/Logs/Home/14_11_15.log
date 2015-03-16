@@ -1,0 +1,22 @@
+[ 2014-11-15T11:18:48+08:00 ] 111.22.0.214 /admin.php/Home/Login/Login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `cs_adminuser` [ RunTime:0.002789s ]
+SQL: SELECT * FROM `cs_adminuser` WHERE `email` = '278203533@qq.com' LIMIT 1   [ RunTime:0.001944s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /data/home/hxu0440223/htdocs/Admin/Home/Controller/LoginController.class.php 第 22 行.
+
+[ 2014-11-15T14:33:53+08:00 ] 111.22.0.214 /admin.php/Home/Article/Article/catList
+ERR: 非法操作:Article
+
+[ 2014-11-15T14:35:02+08:00 ] 111.22.0.214 /admin.php/Home/Article/catlist
+ERR: 非法操作:catlist
+
+[ 2014-11-15T19:55:58+08:00 ] 111.22.0.214 /admin.php/Home/Login/Login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `cs_adminuser` [ RunTime:0.021748s ]
+SQL: SELECT * FROM `cs_adminuser` WHERE `email` = '278203533@qq.com' LIMIT 1   [ RunTime:0.021750s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /data/home/hxu0440223/htdocs/Admin/Home/Controller/LoginController.class.php 第 22 行.
+

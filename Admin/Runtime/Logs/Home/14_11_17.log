@@ -1,0 +1,16 @@
+[ 2014-11-17T10:27:17+08:00 ] 118.249.189.28 /admin.php/Home/Login/Login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+SQL: SHOW COLUMNS FROM `cs_adminuser` [ RunTime:0.002354s ]
+SQL: SELECT * FROM `cs_adminuser` WHERE `email` = '278203533@qq.com' LIMIT 1   [ RunTime:0.001706s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /data/home/hxu0440223/htdocs/Admin/Home/Controller/LoginController.class.php 第 22 行.
+
+[ 2014-11-17T10:27:39+08:00 ] 118.249.189.28 /admin.php/Home/Login/Login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `cs_adminuser` [ RunTime:0.002393s ]
+SQL: SELECT * FROM `cs_adminuser` WHERE `email` = '278203533@qq.com' LIMIT 1   [ RunTime:0.001418s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /data/home/hxu0440223/htdocs/Admin/Home/Controller/LoginController.class.php 第 22 行.
+

@@ -1,0 +1,12 @@
+[ 2014-10-30T22:05:02+08:00 ] 127.0.0.1 /admin.php/Home/article/upload.php?form_name=userfile&file_size=1024
+ERR: 非法操作:upload.php
+
+[ 2014-10-30T22:05:24+08:00 ] 127.0.0.1 /admin.php/Home/article/upload.php?form_name=userfile&file_size=1024
+ERR: 非法操作:upload.php
+
+[ 2014-10-30T23:13:17+08:00 ] 127.0.0.1 /admin.php/Home/upload/upload/
+ERR: 非法操作:upload
+
+[ 2014-10-30T23:13:50+08:00 ] 127.0.0.1 /admin.php/Home/upload/
+ERR: 非法操作:index
+

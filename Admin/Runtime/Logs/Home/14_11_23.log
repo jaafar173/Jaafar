@@ -1,0 +1,47 @@
+[ 2014-11-23T12:45:52+08:00 ] 118.206.224.118 /admin.php/Home/Login/Login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `cs_adminuser` [ RunTime:0.002568s ]
+SQL: SELECT * FROM `cs_adminuser` WHERE `email` = '278203533@qq.com' LIMIT 1   [ RunTime:0.001677s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /data/home/hxu0440223/htdocs/Admin/Home/Controller/LoginController.class.php 第 22 行.
+
+[ 2014-11-23T12:55:26+08:00 ] 118.206.224.118 /admin.php/Home/article/test
+ERR: 非法操作:test
+
+[ 2014-11-23T12:55:33+08:00 ] 118.206.224.118 /admin.php/Home/article/test
+ERR: 非法操作:test
+
+[ 2014-11-23T12:59:30+08:00 ] 118.206.224.118 /admin.php/Home/Article/addarticle.html
+ERR: 无法加载控制器:Article
+
+[ 2014-11-23T18:05:43+08:00 ] 175.10.100.140 /admin.php/Home/Login/Login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `cs_adminuser` [ RunTime:0.002462s ]
+SQL: SELECT * FROM `cs_adminuser` WHERE `email` = '' LIMIT 1   [ RunTime:0.001924s ]
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' /data/home/hxu0440223/htdocs/Admin/Home/Controller/LoginController.class.php 第 28 行.
+
+[ 2014-11-23T18:05:56+08:00 ] 175.10.100.140 /admin.php/Home/Login/Login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `cs_adminuser` [ RunTime:0.002388s ]
+SQL: SELECT * FROM `cs_adminuser` WHERE `email` = '278203533@qq.com' LIMIT 1   [ RunTime:0.001890s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /data/home/hxu0440223/htdocs/Admin/Home/Controller/LoginController.class.php 第 22 行.
+
+[ 2014-11-23T21:26:43+08:00 ] 118.206.231.61 /admin.php/Home/Login/Login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `cs_adminuser` [ RunTime:0.002657s ]
+SQL: SELECT * FROM `cs_adminuser` WHERE `email` = '278203533@qq.com' LIMIT 1   [ RunTime:0.001991s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /data/home/hxu0440223/htdocs/Admin/Home/Controller/LoginController.class.php 第 22 行.
+
+[ 2014-11-23T21:30:16+08:00 ] 118.206.231.61 /admin.php/Home/Article/add
+ERR: 非法操作:add
+
+[ 2014-11-23T23:04:52+08:00 ] 118.206.231.61 /admin.php/Home/Article/add
+ERR: 非法操作:add
+

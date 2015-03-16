@@ -1,0 +1,14 @@
+[ 2014-11-18T21:50:14+08:00 ] 111.22.0.249 /admin.php/Home/Login/Login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `cs_adminuser` [ RunTime:0.002761s ]
+SQL: SELECT * FROM `cs_adminuser` WHERE `email` = '278203533@qq.com' LIMIT 1   [ RunTime:0.001856s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /data/home/hxu0440223/htdocs/Admin/Home/Controller/LoginController.class.php 第 22 行.
+
+[ 2014-11-18T21:50:56+08:00 ] 111.22.0.249 /admin.php/Home/article/edit/id=22
+ERR: 非法操作:edit
+
+[ 2014-11-18T22:43:18+08:00 ] 111.22.0.249 /admin.php/Home/Cat/add
+ERR: 非法操作:add
+

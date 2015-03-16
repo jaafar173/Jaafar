@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>长沙专业橱柜设计师</title>
+  
+  <!-- 双核浏览器默认为webkit内核模式 -->
+  <meta name="renderer" content="webkit">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="我们可以只做橱柜设计，也可以提供橱柜设计、生产、安装、售后服务于一体的专业服务。优秀案例，保留所有权，盗图必究。">
+  <meta name="keywords" content="长沙专业橱柜设计,橱柜制作,橱柜设计注意事项,长沙橱柜品牌,长沙整体橱柜 />
+  <meta name="author" content="">
+<include file="./Public/View/js.html" />
+
+</head>
+
+<body role="document">
+    <!-- Fixed navbar -->
+    <!-- <include file="Public/head" /> -->
+     <include file="./Public/View/head.html" /> 
+
+    <div class="container theme-showcase" role="main" style="padding-top:60px;">
+
+      <div class="jumbotron">
+          <h3>湛倩——长沙橱柜设计师!</h3>
+          <p>
+            1、本人接受过正规美术教育，具有良好的美术功底及艺术素养。
+          </p>
+
+          <p>2、每一张图纸都是我亲自设计，不求做到最完美，但每一个项目，我都尽力做到最好。
+          </p>
+
+          <p>2、有多年的展柜、橱柜等设计经验，能根据客户经验制作。
+          </p>
+          <p></p>
+      </div> 
+
+      <div class="row">
+        <volist name='list' id='row' >
+          <div class="col-sm-4 col-md-4 col-xs-6 col-lg-3">
+            <div class="thumbnail">
+
+               <img src="{$row.mainimg}" 
+               alt="{$row.title}">
+            </div>  
+            <div class="caption">
+               <h3><a href="article/{$row.id}.html">{$row.title}</a></h3>
+            </div>
+          </div>
+        </volist>
+
+
+
+      </div>
+
+    </div>  <!-- 内容结束 -->
+
+    <include file="./Public/View/footer.html" /> 
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+  </body>
+</html>

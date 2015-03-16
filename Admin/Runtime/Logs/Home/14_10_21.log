@@ -1,0 +1,15 @@
+[ 2014-10-21T19:54:15+08:00 ] 127.0.0.1 /admin.php/Home/Article/index
+ERR: 无法加载控制器:Article
+
+[ 2014-10-21T19:54:23+08:00 ] 127.0.0.1 /admin.php/Home/article/index
+ERR: 无法加载控制器:Article
+
+[ 2014-10-21T19:54:33+08:00 ] 127.0.0.1 /admin.php/Home/blog/index
+ERR: 无法加载控制器:Blog
+
+[ 2014-10-21T19:54:49+08:00 ] 127.0.0.1 /admin.php/Home/Blog/index
+ERR: 无法加载控制器:Blog
+
+[ 2014-10-21T19:57:08+08:00 ] 127.0.0.1 /admin.php/Home/Blog/index
+ERR: 无法加载控制器:Blog
+

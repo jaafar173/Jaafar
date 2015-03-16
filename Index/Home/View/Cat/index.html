@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>{$cat.title}</title>
+  
+  <!-- 双核浏览器默认为webkit内核模式 -->
+  <meta name="renderer" content="webkit">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{$cat.description}">
+  <meta name="author" content="">
+  <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+  <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+  <!-- 新 Bootstrap 核心 CSS 文件 -->
+  <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+  <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+  <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+  <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+  <script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body role="document">
+    <!-- Fixed navbar -->
+  <include file="./Public/View/head.html" /> 
+
+    <div class="container" style="padding-top:60px;">
+
+      <div class="blog-header">
+        <h1 class="blog-title">{$cat.title}</h1>
+        <p class="lead blog-description">{$cat.description}</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+          <div class="blog-post">
+            <h2 class="blog-post-title">{$cat.title}</h2>
+            <p class="blog-post-meta">{$cat.addtime}<a href="/">长沙橱柜设计网</a></p>
+
+            {$cat.content}
+          </div><!-- /.blog-post -->
+
+          <div class="blog-post"></div><!-- /.blog-post -->
+
+          <ul class="pager">
+            <li><a href="#">Previous</a></li>
+            <li><a href="#">Next</a></li>
+          </ul>
+
+        </div><!-- /.blog-main -->
+
+        <include file="banner" /> <!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- 内容结束 -->
+
+    <include file="./Public/View/footer.html" /> 
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+  </body>
+</html>

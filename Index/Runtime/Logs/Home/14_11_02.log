@@ -1,0 +1,51 @@
+[ 2014-11-02T15:00:57+08:00 ] 127.0.0.1 /index.php/home/article/index
+ERR: 无法加载控制器:Article
+
+[ 2014-11-02T15:27:44+08:00 ] 127.0.0.1 /index.php/home/article/index?id=3
+ERR: 模板不存在:./Index/Home/View/Article/index.html
+
+[ 2014-11-02T15:35:10+08:00 ] 127.0.0.1 /index.php/home/article/index?id=3
+ERR: 模板不存在:./Index/Home/View/Article/index.html
+
+[ 2014-11-02T17:01:29+08:00 ] 127.0.0.1 /index.php/home/article/3.html
+ERR: 模板不存在:./Index/Home/View/Article/show.html
+
+[ 2014-11-02T17:10:31+08:00 ] 127.0.0.1 /artecle/1.html
+ERR: 无法加载控制器:Artecle
+
+[ 2014-11-02T17:10:41+08:00 ] 127.0.0.1 /artecle/1.html
+ERR: 无法加载控制器:Artecle
+
+[ 2014-11-02T17:10:42+08:00 ] 127.0.0.1 /artecle/1.html
+ERR: 无法加载控制器:Artecle
+
+[ 2014-11-02T17:10:42+08:00 ] 127.0.0.1 /artecle/1.html
+ERR: 无法加载控制器:Artecle
+
+[ 2014-11-02T17:10:42+08:00 ] 127.0.0.1 /artecle/1.html
+ERR: 无法加载控制器:Artecle
+
+[ 2014-11-02T17:10:42+08:00 ] 127.0.0.1 /artecle/1.html
+ERR: 无法加载控制器:Artecle
+
+[ 2014-11-02T17:10:42+08:00 ] 127.0.0.1 /artecle/1.html
+ERR: 无法加载控制器:Artecle
+
+[ 2014-11-02T17:10:42+08:00 ] 127.0.0.1 /artecle/1.html
+ERR: 无法加载控制器:Artecle
+
+[ 2014-11-02T17:10:42+08:00 ] 127.0.0.1 /artecle/1.html
+ERR: 无法加载控制器:Artecle
+
+[ 2014-11-02T17:10:43+08:00 ] 127.0.0.1 /artecle/1.html
+ERR: 无法加载控制器:Artecle
+
+[ 2014-11-02T17:10:43+08:00 ] 127.0.0.1 /artecle/1.html
+ERR: 无法加载控制器:Artecle
+
+[ 2014-11-02T17:10:43+08:00 ] 127.0.0.1 /artecle/1.html
+ERR: 无法加载控制器:Artecle
+
+[ 2014-11-02T17:10:50+08:00 ] 127.0.0.1 /artecle/1.html
+ERR: 无法加载控制器:Artecle
+

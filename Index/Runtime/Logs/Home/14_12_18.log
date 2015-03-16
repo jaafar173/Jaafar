@@ -1,0 +1,9 @@
+[ 2014-12-18T00:02:03+08:00 ] 66.249.79.93 /robots.txt
+ERR: 无法加载控制器:Robots.txt
+
+[ 2014-12-18T05:40:57+08:00 ] 83.169.20.80 /wp-admin/admin-ajax.php?action=revslider_show_image&img=../wp-config.php
+ERR: 无法加载控制器:Wp-admin
+
+[ 2014-12-18T17:59:31+08:00 ] 106.120.173.66 /robots.txt
+ERR: 无法加载控制器:Robots.txt
+

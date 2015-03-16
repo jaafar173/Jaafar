@@ -1,0 +1,30 @@
+[ 2014-12-21T02:10:26+08:00 ] 64.246.165.170 /robots.txt
+ERR: 无法加载控制器:Robots.txt
+
+[ 2014-12-21T11:07:26+08:00 ] 203.208.60.26 /robots.txt
+ERR: 无法加载控制器:Robots.txt
+
+[ 2014-12-21T15:25:15+08:00 ] 118.206.226.182 /index.php/Home/User/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.002412s ]
+SQL: SELECT * FROM `cs_user` WHERE `email` = '278203533@qq.com' LIMIT 1   [ RunTime:0.001673s ]
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' /data/home/hxu0440223/htdocs/Index/Home/Controller/UserController.class.php 第 51 行.
+
+[ 2014-12-21T15:25:18+08:00 ] 118.206.226.182 /index.php/Home/User/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.002170s ]
+SQL: SELECT * FROM `cs_user` WHERE `email` = '2782035331@qq.com' LIMIT 1   [ RunTime:0.001669s ]
+NOTIC: [8] Use of undefined constant MD5_key - assumed 'MD5_key' /data/home/hxu0440223/htdocs/Index/Home/Controller/UserController.class.php 第 88 行.
+SQL: INSERT INTO `cs_user` (`email`,`password`) VALUES ('2782035331@qq.com','e7bad41de2a73bb998632b5013e62f1b') [ RunTime:0.001692s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /data/home/hxu0440223/htdocs/Index/Home/Controller/UserController.class.php 第 62 行.
+
+[ 2014-12-21T19:21:26+08:00 ] 123.125.71.108 /robots.txt
+ERR: 无法加载控制器:Robots.txt
+
+[ 2014-12-21T23:48:36+08:00 ] 203.208.60.19 /robots.txt
+ERR: 无法加载控制器:Robots.txt
+

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>{$title}-长沙橱柜设计师</title>
+
+    <include file="./Public/View/js.html" />
+
+
+  </head>
+
+ 
+ <body role="document">
+    <!-- Fixed navbar -->
+    <!-- <include file="Public/head" /> -->
+      <include file="./Public/View/user_head.html" />
+      
+
+    <div class="container-fluid">
+      <div class="row">
+
+        <!-- 左侧banner -->
+        <include file="./Public/View/user_menu.html" />  
+
+        
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">用户中心</h1>
+
+          <div class="row">
+              <table class="table table-bordered">
+                <div class="form-group">
+                  <label class="col-sm-2 col-md-1 control-label">公司全名</label>
+                  <div class="col-sm-7 col-md-10">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="请输入公司全名" value="{$company.name}">
+                  </div>
+                </div>
+                <br>
+
+
+                <div class="form-group">
+                  <label for="title" class="col-sm-2 col-md-1 control-label">公司电话</label>
+                  <div class="col-sm-7 col-md-10">
+                    <input type="text" class="form-control" id="phone" name="phone" placeholder="请输入公司电话" value="{$company.phone}">
+                  </div>
+                </div>
+                <br>
+
+
+                <div class="form-group">
+                  <label for="title" class="col-sm-2 col-md-1 control-label">公司地址</label>
+                  <div class="col-sm-7 col-md-10">
+                    <input type="text" class="form-control" id="street" name="street" placeholder="请输入公司地址" value="{$company.street}">
+                  </div>
+                </div>
+                <br>
+
+
+                <div class="form-group">
+                  <label for="title" class="col-sm-2 col-md-1 control-label">详细信息</label>
+                  <div class="col-sm-7 col-md-10">
+                    <input type="text" class="form-control" id="description" name="description" placeholder="请输入公司详细信息" value="{$company.description}">
+                  </div>
+                </div>
+                <br>
+
+                <button type="button" id="submit">添加</button>
+
+
+
+              </table>            
+
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+ <!-- 内容结束 -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript">
+  $(document).ready(function(){
+      $('#submit').click(function(){
+          $.post('',{
+              street:$('#street').val(),
+              name:$('#name').val(),
+              description:$('#description').val(),
+              phone:$('#phone').val(),
+            },function(data){
+              if(data.ret==0){
+                window.location = data.data;
+              }else{
+                alert(data.msg);
+              }
+          },"json");
+      });
+  });
+</script>
+  </body>
+</html>

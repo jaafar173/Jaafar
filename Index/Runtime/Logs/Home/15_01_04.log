@@ -1,0 +1,162 @@
+[ 2015-01-04T12:13:17+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T12:13:27+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T12:30:56+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T12:31:34+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T12:31:37+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant MD5_key - assumed 'MD5_key' D:\xampp\htdocs\cosplay\Index\Home\Controller\UserController.class.php ç¬¬ 84 è¡Œ.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\cosplay\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `cs_user` WHERE `email` = '278203533@qq.com' LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\xampp\htdocs\cosplay\Index\Home\Controller\UserController.class.php ç¬¬ 28 è¡Œ.
+
+[ 2015-01-04T12:31:37+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:11:27+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:11:29+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:11:30+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:11:31+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:13:34+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:13:34+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:13:44+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant MD5_key - assumed 'MD5_key' D:\xampp\htdocs\cosplay\Index\Home\Controller\UserController.class.php ç¬¬ 84 è¡Œ.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\cosplay\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `cs_user` WHERE `email` = '1029928870@qq.com' LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\cosplay\Index\Home\Controller\UserController.class.php ç¬¬ 31 è¡Œ.
+
+[ 2015-01-04T13:14:24+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant MD5_key - assumed 'MD5_key' D:\xampp\htdocs\cosplay\Index\Home\Controller\UserController.class.php ç¬¬ 84 è¡Œ.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\cosplay\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ç¬¬ 52 è¡Œ.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.046800s ]
+SQL: SELECT * FROM `cs_user` WHERE `email` = '1029928870@qq.com' LIMIT 1   [ RunTime:0.046800s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\xampp\htdocs\cosplay\Index\Home\Controller\UserController.class.php ç¬¬ 28 è¡Œ.
+
+[ 2015-01-04T13:14:24+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:14:30+08:00 ] 127.0.0.1 /index.php/Home/user/addarticle.html
+ERR: éæ³•æ“ä½œ:addarticle
+
+[ 2015-01-04T13:17:09+08:00 ] 127.0.0.1 /index.php/Home/user/addarticle.html
+ERR: æ¨¡æ¿ä¸å­˜åœ¨:./Index/Home/View/User/addarticle.html
+
+[ 2015-01-04T13:18:55+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:19:17+08:00 ] 127.0.0.1 /index.php/Home/upload/upload?form_name=userfile&file_size=1024
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Upload
+
+[ 2015-01-04T13:19:31+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:19:34+08:00 ] 127.0.0.1 /index.php/Home/upload/upload?form_name=userfile&file_size=1024
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Upload
+
+[ 2015-01-04T13:20:41+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:21:23+08:00 ] 127.0.0.1 /index.php/Home/article/articlelist
+ERR: éæ³•æ“ä½œ:articlelist
+
+[ 2015-01-04T13:21:28+08:00 ] 127.0.0.1 /index.php/Home/article/addarticle
+ERR: éæ³•æ“ä½œ:addarticle
+
+[ 2015-01-04T13:21:50+08:00 ] 127.0.0.1 /index.php/Home/user/in
+ERR: éæ³•æ“ä½œ:in
+
+[ 2015-01-04T13:21:53+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:22:36+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:22:51+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:25:21+08:00 ] 127.0.0.1 /index.php/Home/user/setcompany
+ERR: éæ³•æ“ä½œ:setcompany
+
+[ 2015-01-04T13:42:10+08:00 ] 127.0.0.1 /index.php/Home/user/setcompany
+ERR: æ¨¡æ¿ä¸å­˜åœ¨:./Index/Home/View/User/setcompany.html
+
+[ 2015-01-04T13:42:34+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:42:40+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:42:45+08:00 ] 127.0.0.1 /index.php/Home/user/setcompany
+ERR: æ¨¡æ¿ä¸å­˜åœ¨:./Index/Home/View/User/setcompany.html
+
+[ 2015-01-04T13:51:12+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:54:12+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:58:12+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:58:45+08:00 ] 127.0.0.1 /index.php/Home/user/setcompany
+ERR: ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+
+[ 2015-01-04T13:59:05+08:00 ] 127.0.0.1 /index.php/Home/user/setcompany
+ERR: ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+
+[ 2015-01-04T13:59:08+08:00 ] 127.0.0.1 /index.php/Home/user/setcompany
+ERR: ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+
+[ 2015-01-04T13:59:20+08:00 ] 127.0.0.1 /index.php/Home/user/setcompany
+ERR: ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+
+[ 2015-01-04T13:59:27+08:00 ] 127.0.0.1 /index.php/Home/User/index.html
+ERR: ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+
+[ 2015-01-04T13:59:37+08:00 ] 127.0.0.1 /index.php/Home/User/index.html
+ERR: ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓĞÕıÈ·´ğ¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓĞ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+
+[ 2015-01-04T13:59:46+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:59:49+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
+[ 2015-01-04T13:59:57+08:00 ] 127.0.0.1 /Public/js/bootstrap.js
+ERR: æ— æ³•åŠ è½½æ§åˆ¶å™¨:Public
+
